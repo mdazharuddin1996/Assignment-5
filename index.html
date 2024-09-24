@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Assignment-</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="css/index.css" />
+  </head>
+  <body class="">
+    <header class="bg-common-for-header">
+      <div class="navbar w-9/12 mx-auto p-4 felx justify-between">
+        <div class="">
+          <a class="btn bg-common">Blog</a>
+        </div>
+        <div class="">
+          <a class="btn"
+            ><img src="./assets/logo.png" alt="" /> Donate Bangladesh</a
+          >
+        </div>
+        <div class="">
+          <div>
+            <span><img src="./assets/coin.png" alt="" /></span>
+          </div>
+          <span id="avalable-balance" class="mx-2">5500 </span> <span>BDT</span>
+        </div>
+      </div>
+      <div class="text-center bg-base-100 p-16">
+        <button id="donation-btn" class="btn bg-common w-32">Donation</button>
+        <button class="btn btn-primary w-32">History</button>
+      </div>
+    </header>
+
+    <main class="w-9/12 mx-auto">
+     <div id="donation-page" class="">
+       <div class="card card-side bg-base-100 mb-5 shadow-xl">
+          <img src="./assets/noakhali.png" alt="Movie" />
+        </figure>
+        <div class="card-body w-6/12">
+          <button class="flex btn w-4/12">
+            <img src="./assets/coin.png" alt="" />
+            <span class="mx-1" id="total-donate"> 0 </span>
+            <span class="">BDT</span>
+          </button>
+          <h2 class="card-title">Donate for Flood at Noakhali, Bangladesh</h2>
+          <p>
+            The recent floods in Noakhali have caused significant damage to
+            homes infrastructure. Your donation will help provide essential
+            supplies and to those affected by this disaster. Every contribution,
+            big or small, makes difference. Please join us in supporting the
+            relief efforts and making a positive impact on the lives of those in
+            need.
+          </p>
+          <input
+            id="finput-field-money"
+            class="pl-4"
+            type="number"
+            placeholder="Write Donation Amount"
+          />
+          <button id="first-donate-now" class="btn bg-common w-full">
+            Donate Now
+          </button>
+        </div>
+      </div>
+      
+      <div class="card card-side mb-5 bg-base-100 shadow-xl">
+        <figure>
+          <img src="./assets/feni.png" alt="Movie" />
+        </figure>
+        <div class="card-body w-6/12">
+          <div class="flex w-2/12">
+            <p><img src="./assets/coin.png" alt="" /></p>
+            <p><span id="">0</span> <span>BDT</span></p>
+          </div>
+          <h2 class="card-title">Donate for Flood at Noakhali, Bangladesh</h2>
+          <p>
+            The recent floods in Noakhali have caused significant damage to
+            homes infrastructure. Your donation will help provide essential
+            supplies and to those affected by this disaster. Every contribution,
+            big or small, makes difference. Please join us in supporting the
+            relief efforts and making a positive impact on the lives of those in
+            need.
+          </p>
+          <input type="number" placeholder="Write Donation Amount" />
+          <button class="btn bg-common w-full">Donate Now</button>
+        </div>
+      </div>
+      <div class="card card-side bg-base-100 shadow-xl">
+        <figure>
+          <img src="./assets/quota-protest.png" alt="Movie" />
+        </figure>
+        <div class="card-body w-6/12">
+          <div class="flex w-2/12">
+            <p><img src="./assets/coin.png" alt="" /></p>
+            <p><span>0</span> <span>BDT</span></p>
+          </div>
+          <h2 class="card-title">Donate for Flood at Noakhali, Bangladesh</h2>
+          <p>
+            The recent floods in Noakhali have caused significant damage to
+            homes infrastructure. Your donation will help provide essential
+            supplies and to those affected by this disaster. Every contribution,
+            big or small, makes difference. Please join us in supporting the
+            relief efforts and making a positive impact on the lives of those in
+            need.
+          </p>
+          <input type="number" placeholder="Write Donation Amount" />
+          <button class="btn bg-common w-full">Donate Now</button>
+        </div>
+      </div>
+     </div>
+    </main>
+    <script src="js/common.js"></script>
+    <script src="js/index.js"></script>
+  </body>
+</html>
