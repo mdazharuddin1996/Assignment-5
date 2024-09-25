@@ -38,12 +38,16 @@ document.getElementById('first-donate-now').addEventListener('click', function (
 
 document.getElementById('donation-btn').addEventListener('click', function () {
     getDonateBtn('donation-page');
+     document.getElementById('donation-btn').classList.add('bg-common');
+    document.getElementById('history-btn').classList.remove('bg-common');
 });
 
 
 
 document.getElementById('history-btn').addEventListener('click', function () {
     getHistoryBtn('history-page');
+    document.getElementById('donation-btn').classList.remove('bg-common');
+    document.getElementById('history-btn').classList.add('bg-common');
 });
 
 
