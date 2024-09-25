@@ -16,6 +16,8 @@ document.getElementById('first-donate-now').addEventListener('click', function (
     };
 
     document.getElementById('input-field-money').value = '';
+
+    const title = document.getElementById('card-title').innerText;
     
     const historyPage = document.getElementById('history-page');
     const createElement = document.createElement('div');
@@ -25,7 +27,7 @@ document.getElementById('first-donate-now').addEventListener('click', function (
     createElement.classList.add('mb-5');
     createElement.classList.add('rounded');
     createElement.innerHTML = `
-<h3>Donate : ${inputFieldValue}</h3>
+<h3> ${inputFieldValue}Tk is ${title}</h3>
 <h3>Available Balance Now :${availableBalanceDecrease}</h3>
 <p>Date ${new Date()}</p>
 `
